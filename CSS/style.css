@@ -2,38 +2,90 @@
 gainsboro: #dcdcdc
 red I like #E82F0C*/
 
-head{
-    display: flex;
-    
-    justify-content: center
-}
+
 
 body{
     background: #E82F0C;
+    
     margin: 10px;
+    
     padding: 5px;
 }
 
 ul{
-    display: flex
-        
+    display: flex;
+    
+    justify-content: space-around;
+    
+    list-style: none;
+    
+    background-color: #000000;
+    
+    align-items: center;
+    
+    font-family: 'Shadows Into Light', cursive;
 }
 
+/* this needs some work*/
+li{
+    border: 5px solid #E82F0C;
+    padding: 15px;
+    
+    border-radius: 15px;
+}
+
+section{
+    border: 5px solid  #000000;
+        
+    border-radius: 10px    
+}
+
+a{
+    text-decoration: none
+    color: #000000    
+}
+
+nav a{
+    color: #E82F0C;
+    
+    text-decoration: none;
+    
+  
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*nav{
+    display: flex;
+    align-content: center;
+}*/
+
+
 h1{
-    text-align: center
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 h2{
-    text-align: center
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 P{
-    margin: 10px;
+    margin: 15px;
 }
+
+
 
 .bio{
     
     background: #dcdcdc;
+    
+    margin-top: 5px
     
     
     
@@ -47,6 +99,10 @@ P{
 
 .biopics{
     display: flex; 
+    
+    justify-content: center;
+    
+    align-content: space-around;
 
 }
 
@@ -63,6 +119,8 @@ P{
       
     
     background: #dcdcdc; 
+    
+    margin-top: 5px;
 }
 
 
@@ -78,6 +136,7 @@ P{
 
 .comics{
     background: #dcdcdc;
+    margin-top: 5px;
 }
 
 .comicpics{
@@ -87,9 +146,41 @@ P{
 
 .othermedia{
     background: #dcdcdc;
+    
+    margin-top: 5px;
 }
 
 .othermediavids{
     display: flex;
     justify-content: space-around;
+}
+
+figcaption{
+    text-align: center
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
